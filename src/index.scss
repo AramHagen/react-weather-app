@@ -1,0 +1,6 @@
+@use './styles/variables';
+@use './styles/utils.scss';
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--nero);
+}

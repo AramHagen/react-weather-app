@@ -1,0 +1,45 @@
+.forecast-container {
+  height: 325px;
+  &__title {
+    color: var(--mischka);
+    padding-top: 1rem;
+    text-align: center;
+  }
+  &__list {
+    display: flex;
+    justify-content: flex-start;
+    white-space: nowrap;
+    gap: 2rem;
+    overflow-x: auto;
+    padding: 2.25rem 1rem 1.25rem 1rem;
+  }
+  &__item {
+    padding: 1rem 0;
+    color: var(--white);
+    background-color: rgba(72, 49, 157, 0.2);
+    border-radius: 30px;
+    gap: 0.625rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 4rem;
+    height: 10rem;
+    display: flex;
+    border: 1px solid rgb(255 255 255 / 0.2);
+  }
+  .day {
+    font-weight: 600;
+  }
+  .degree {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+.bg-blueGem {
+  background-color: rgb(72 49 157);
+}
+
+.bg-blueGemOP {
+  background-color: rgba(72, 49, 157, 0.2);
+}

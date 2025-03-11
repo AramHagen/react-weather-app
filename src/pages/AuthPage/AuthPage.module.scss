@@ -1,0 +1,52 @@
+.auth-container {
+  background-image: url('../../assets/images/background-image-login.jpg');
+  background-position: top right;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-color: var(--Violent-Violet);
+  padding: 50px;
+  border-radius: 44px;
+  height: 100%;
+  box-sizing: border-box;
+  height: max-content;
+}
+.copyright {
+  position: absolute;
+  color: var(--mischka);
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+  text-align: center;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+}
+.form-container {
+  padding-top: 14rem;
+}
+.toggle-btn {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: var(--white);
+  transition: filter 0.3s ease;
+  &:hover {
+    background-color: color-mix(in srgb, var(--white) 80%, black 20%);
+  }
+}
+.loading-container {
+  background-color: rgb(31 41 55 / 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}

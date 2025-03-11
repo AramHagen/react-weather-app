@@ -1,0 +1,36 @@
+.weather-details {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  .city-name {
+    font-size: 3rem;
+    line-height: 1;
+    padding-top: 50px;
+    color: var(--white);
+  }
+  .temp-f {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-size: 4.5rem;
+    line-height: 1;
+    color: var(--white);
+  }
+  .weather-condition {
+    padding-bottom: 0.25rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: var(--mischka);
+  }
+  .weather-degree {
+    color: var(--white);
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    gap: 0.7rem;
+  }
+}
